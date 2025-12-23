@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AnchorMarks Options</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AnchorMarks Settings</h1>
+
+        <div class="card">
+            <h2>Account</h2>
+            <div class="form-group">
+                <label>API Key</label>
+                <input type="password" id="api-key" placeholder="Paste your API key here">
+            </div>
+            <div class="form-group">
+                <label>API URL</label>
+                <input type="text" id="api-url" placeholder="https://api.anchormarks.com/api">
+                <small>Leave empty to use default. Example: http://localhost:5173/api</small>
+            </div>
+            <button id="save-btn" class="primary-btn">Save Settings</button>
+        </div>
+
+        <div class="card">
+            <h2>Debug</h2>
+            <button id="clear-data" class="danger-btn">Clear Local Data</button>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

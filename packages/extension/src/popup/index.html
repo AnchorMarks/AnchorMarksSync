@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AnchorMarks</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AnchorMarks</h1>
+      <span id="status-indicator" class="status-offline">●</span>
+    </header>
+    <main>
+      <div id="auth-section">
+        <button id="login-btn" class="primary-btn">Log In</button>
+      </div>
+      <div id="sync-section" class="hidden">
+        <p>Last Sync: <span id="last-sync">Never</span></p>
+        <button id="sync-now-btn" class="secondary-btn">Sync Now</button>
+      </div>
+    </main>
+    <footer>
+      <a href="#" id="open-options">Options</a>
+    </footer>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
